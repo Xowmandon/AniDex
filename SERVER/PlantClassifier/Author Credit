@@ -1,0 +1,6 @@
+@inproceedings{plantnet-300k,
+author    = {C. Garcin and A. Joly and P. Bonnet and A. Affouard and \JC Lombardo and M. Chouet and M. Servajean and T. Lorieul and J. Salmon},
+booktitle = {NeurIPS Datasets and Benchmarks 2021},
+title     = {{Pl@ntNet-300K}: a plant image dataset with high label ambiguity and a long-tailed distribution},
+year      = {2021},
+}
