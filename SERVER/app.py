@@ -4,11 +4,17 @@ from flask import Flask, request, make_response, jsonify
 from PIL import Image
 from werkzeug.utils import secure_filename
 from PlantClassifier import PlantClassifier
+from flask_ngrok import run_with_ngrok
+
 
 #Plant Classifier Model
 from PlantClassifier import PlantClassifier
 
 app = Flask(__name__)
+if __name__ == '__main__':
+    app.run(port=5002)
+
+
 
 EXTENSIONS_ALLOWED = ["png","heic","jpg","jpeg"]
 def file_allowed(filename):
